@@ -1,0 +1,12 @@
+treehouse get
+❯ treehouse get
+🌳 Setting up worktree...
+🌳 Entered worktree at ~/.treehouse/project-8ec51a/1/project. Type 'exit' to return.
+❯ export GOTMPDIR=/tmp/fm-launch-live-raw-a1/gotmp
+export COMPACT_ADVISER_DISABLE=1
+export FM_TASK_ID=launch-live-raw-a1
+❯ export COMPACT_ADVISER_DISABLE=1
+❯ export FM_TASK_ID=launch-live-raw-a1
+. '/tmp/fm-launch-live-raw-a1+d62c579b87677a8e48f17a2019163a1611958efc392f7b12dedf796622f7dcaa/launch.s1790064174.6885.1
+❯ . '/tmp/fm-launch-live-raw-a1+d62c579b87677a8e48f17a2019163a1611958efc392f7b12dedf796622f7dcaa/launch.s1790064174.6885
+.11861.sh'
