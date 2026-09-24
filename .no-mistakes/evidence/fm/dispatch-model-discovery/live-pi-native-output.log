@@ -1,0 +1,5 @@
+$ env HOME=/Users/unarams/.no-mistakes/worktrees/558623ebb989/01M38AAVAJJDE31QVE3PFK5N6B/.tmp-live-home PI_CODING_AGENT_DIR=/Users/unarams/.no-mistakes/worktrees/558623ebb989/01M38AAVAJJDE31QVE3PFK5N6B/.tmp-live-pi-catalog pi --list-models
+No models available. Use /login to log into a provider via OAuth or API key. See:
+  /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/docs/providers.md
+  /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/docs/models.md
+exit=0

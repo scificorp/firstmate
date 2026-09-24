@@ -1,0 +1,15 @@
+scenario: no-key dispatch must remain off even with a missing catalog directory
+command: FM_HOME=<isolated> FM_DISPATCH_PROJECT_DIR=<missing> TYPESAFE_API_KEY= bin/fm-dispatch-resolve.sh <brief>
+exit=0
+stdout_bytes=0
+stderr=dispatch-resolve: off (TYPESAFE_API_KEY absent from the environment and /Users/unarams/.no-mistakes/worktrees/558623ebb989/01M38AAVAJJDE31QVE3PFK5N6B/.live-dispatch.NYQVbd/home/.env)
+
+command: PI_CODING_AGENT_DIR=<isolated> pi --list-models; PI_CODING_AGENT_DIR=<isolated> bin/fm-model-catalog.sh pi
+pi_list_exit=0
+catalog_exit=0
+pi_list_stdout=No models available. Use /login to log into a provider via OAuth or API key. See:
+  /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/docs/providers.md
+  /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/docs/models.md
+catalog_stdout=
+catalog_ok_rows=0
+catalog_stderr=

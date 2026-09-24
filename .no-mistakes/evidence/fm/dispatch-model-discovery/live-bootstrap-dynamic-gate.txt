@@ -1,0 +1,5 @@
+command: FM_HOME=<isolated> FM_BACKEND=tmux TYPESAFE_API_KEY= bin/fm-bootstrap.sh
+exit=0
+stdout=PRESENTATION_UNAVAILABLE: lavish-axi (requires >=0.1.77; install: npm install -g lavish-axi && lavish-axi setup hooks) - nonvisual work may proceed with plain-text decisions and reports; install or upgrade before using Lavish
+CREW_DISPATCH: invalid config/crew-dispatch.json - dynamic dispatch requires TYPESAFE_API_KEY; configure concrete harness profiles for ordinary intake
+stderr=

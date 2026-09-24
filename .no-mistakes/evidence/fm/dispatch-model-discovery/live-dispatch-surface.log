@@ -1,0 +1,10 @@
+$ env -u TYPESAFE_API_KEY FM_HOME=/Users/unarams/.no-mistakes/worktrees/558623ebb989/01M38AAVAJJDE31QVE3PFK5N6B bin/fm-dispatch-resolve.sh README.md --project /definitely/missing
+dispatch-resolve: off (TYPESAFE_API_KEY absent from the environment and /Users/unarams/.no-mistakes/worktrees/558623ebb989/01M38AAVAJJDE31QVE3PFK5N6B/.env)
+exit=0
+
+$ bin/fm-model-catalog.sh --list-harnesses
+claude
+codex
+opencode
+pi
+pi-signed

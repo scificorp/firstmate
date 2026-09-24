@@ -1,0 +1,3 @@
+$ env HOME=/Users/unarams/.no-mistakes/worktrees/558623ebb989/01M38AAVAJJDE31QVE3PFK5N6B/.tmp-live-home PI_CODING_AGENT_DIR=/Users/unarams/.no-mistakes/worktrees/558623ebb989/01M38AAVAJJDE31QVE3PFK5N6B/.tmp-live-pi-catalog FM_MODEL_CATALOG_TIMEOUT=5 bin/fm-model-catalog.sh pi
+{"status":"ok","harness":"pi","model":"No/models","provider":"No","reasoningCapabilities":[],"taskTypes":[],"provenance":{"method":"pi --list-models","rawProvider":"No"}}
+exit=0
