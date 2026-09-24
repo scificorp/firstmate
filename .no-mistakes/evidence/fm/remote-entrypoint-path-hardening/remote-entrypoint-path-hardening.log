@@ -1,0 +1,14 @@
+=== regression reproduction: base commit under account PATH with wc -> site-jump ===
+exit=64
+stderr:
+ssh: usage: ssh destination [command [argument ...]]
+/Users/unarams/.no-mistakes/worktrees/558623ebb989/01M38EQ2M2SXD0JEBSZ41GD9V5/.tmp-remote-entrypoint-live-13779/old-bin/fm-remote-entrypoint.sh: line 56: [: : integer expression expected
+error: remote root is empty
+=== fixed product under the same hostile account PATH ===
+exit=64
+stderr:
+error: remote root is not a safe existing directory
+=== focused executable test ===
+ok - fm-remote-entrypoint.sh invoked via a PATH symlink resolves SCRIPT_DIR to the real bin/ directory
+ok - fm-remote-entrypoint.sh invoked directly still resolves SCRIPT_DIR correctly
+ok - fm-remote-entrypoint.sh uses system tools before composing the operator PATH
